@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*token*
+*.key
+
+# Generated data and media (keep repo small)
+data/
+datasets/
+outputs/
+_out*/
+runs/
+cosmos_input/
+cosmos_output*/
+*.mp4
+*.npy
+*.npz
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
